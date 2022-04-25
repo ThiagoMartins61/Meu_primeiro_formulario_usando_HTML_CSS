@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="logo">
+				<img src = "https://www.lamsolucoesdigitais.com.br/wp-content/uploads/2020/05/cropped-lamsd-logo-150x150-1.png" align="right" alt ="image" heigth ="120" width = "120">
+			</div>
+			<div id="menu">
+				<a href="https://www.instagram.com/lamsolucoesdigitais/">Instagram</a>
+				<a href="https://web.whatsapp.com/send?phone=61995627687&text=Ol%C3%A1,%20vi%20o%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!">Whatsapp</a>
+				<a href="https://www.lamsolucoesdigitais.com.br/#">Quem Somos</a>
+			</div>
+		</div>
+	</header>
+	<div id="principal">
+		<div class="container">
+			<h2> <b>Fórmulario Mentoria Lam</b> </h2></>
+
+			<form>
+				<hr>
+				<h3>Dados Pessoais</h3>
+				<hr>
+
+				<label for="nome">Nome:</label>
+				<br><input type="text" name="nome" id="nome" placeholder="Insira seu nome" size="30" maxlength="100"<br>
+
+				<label for="email"> <br>E-mail:</label>
+				<br><input type="email" name="email" id="email" placeholder="Insira o e-mail" size="30" maxlength="100"
+
+				<label for="telefone"><br>Telefone:</label>
+				<br><input type="number" name="telefone" id="telefone" placeholder="Insira o telefone" size="30" maxlength="60"
+
+				<label for="sexo"><br>Sexo:</label>
+				<form method="post" action="cadastra-sexo">
+					<select name="time">
+					<option value="masc">Masculino</option>
+					<option value="femi">Feminino</option>
+					<option value="outro">Outro</option>
+					</select>
+
+				</form>
+
+				<label for="datadenascimento">Data de Nascimento:</label>
+				<br><input type="date" name="datadenascimento" id="datadenascimento" placeholder="Insira a data de Nascimento" size="30" maxlength="60"
+
+				<label for="endereco"><br>Endereço:</label>
+				<br><input type="text" name="endereco" id="endereco" placeholder="Insira o Endereço" size="30" maxlength="100"
+
+				<hr>
+				<h3><p>Dados sobre o curso superior</h3>
+				<hr>
+
+				<label for="nomeinstituicao"><br>Nome Instituição:</label>
+				<br><input type="text" name="nomeinstituicao" id="nomeinstituicao" placeholder="Insira a Instituição" size="30" maxlength="100"
+
+				<label for="semestre"><br>Semestre:</label>
+				<br><input type="text" name="semestre" id="semestre" placeholder="Insira o semstre" size="30" maxlength="60"
+
+				<label for="linkedin"><br>Link do Perfil linkedin:</label>
+				<br><input type="url" name="linkedin" id="linkedin" placeholder="Insira o Link" size="30" maxlength="100"
+
+				<label for="objetivo"><br>Qual objetivo com a mentoria ?</label>
+				<br><input type="text" name="objetivo" id="objetivo"  placeholder="Digite seu objetivo"size="30" maxlength="200"<br>
+
+				<p><button type="submit" onclick= "Enviar()" >Enviar</button>
+			</form>
+		</div>
+
+	</div>
+	<footer>Desenvolvido por Thiago Martins </footer>
+</body>
+
+</html>
